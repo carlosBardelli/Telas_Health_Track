@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT Consumo de Água</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="/Css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="./inicial.html">
+            <i class="bi bi-arrow-left-circle-fill"></i>
+            Voltar</a>
+    </div>
+
+    <div class="container">
+        <figure class="text-center">
+            <img src="/Imagens/logotipo.png" alt="">
+        </figure>
+
+        <div class="row">
+            <h1>Consumo de Água</h1>
+            <form>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label for="Dt_Lancamento" class="form-label">Data Lançamento</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="Ml" class="form-label">ML</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="btn btn-primary" style="margin-top: 31px;">Gravar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <h3 class="mt-5">Histórico Consumo de Água</h3>
+            <div class="card title_imc">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Data</th>
+                                    <th>ml</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>01/02/2022</td>
+                                    <td>2000</td>
+                                </tr>
+                                <tr>
+                                    <td>01/02/2022</td>
+                                    <td>2000</td>
+                                </tr>
+                                <tr>
+                                    <td>01/02/2022</td>
+                                    <td>2000</td>
+                                </tr>
+                                <tr>
+                                    <td>01/02/2022</td>
+                                    <td>2000</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

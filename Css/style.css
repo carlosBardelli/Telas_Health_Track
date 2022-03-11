@@ -1,0 +1,37 @@
+body {
+    background-color: #dedede;
+}
+
+.logotipo {
+  text-align: center;
+  margin-bottom: 86px;
+}
+
+.form-login {
+    max-width: 252px;
+    /* background-color: blue; */
+}
+
+.box_container {
+    height: 100vh;
+}
+
+/* Pagina recuperar senha */
+
+
+
+/* Pagina inicial */
+.icon_img {
+    height: 150px;
+    width: 100px;
+}
+.icon_img_Agua {
+    height: 150px;
+    width: 73px;
+}
+/* Pagina composicao corporal */
+
+.title_imc {
+    margin-top: 30px;
+}
+
